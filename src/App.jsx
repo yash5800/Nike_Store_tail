@@ -1,6 +1,8 @@
 function App(){
   return(
-    <h1 className="text-green-300">I am Dark</h1>
+    <div className="container-sm bg-purple-950">
+      <h1 className="text-green-700">I am Dark</h1>
+    </div>
   )
 }
 
