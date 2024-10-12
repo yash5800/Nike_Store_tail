@@ -63,3 +63,11 @@ body{
     @apply text-xl gap-4 -left-7
   }
 }
+
+.move-left {
+  transition: transform 0.3s ease;
+}
+
+button:hover .move-left {
+  transform: translateX(15px); 
+}
