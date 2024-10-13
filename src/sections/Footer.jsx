@@ -42,7 +42,7 @@ const Footer = () => {
     <footer className="max-container">
         <div className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
            <div className="flex flex-col items-start">
-               <a href="/">
+               <a href="#">
                  <img src={footerLogo} alt="logo" width={150} height={46} />
                </a>
                <p className="mt-6 leading-7 text-base text-slate-gray font-montserrat sm:max-w-sm ">Get shoes ready for the new term at your nearest Nike store. Find Your perfect Size in Store. Get Rewards</p>
@@ -67,7 +67,7 @@ const Footer = () => {
                       {
                         link.links.map((link,index)=>(
                           <li key={index} className="font-palanquin mt-3 leading-normal hover:text-white-400 cursor-pointer">
-                            <a href="/">{link.name}</a>
+                            <a href="#">{link.name}</a>
                           </li>
                         ))
                       }
