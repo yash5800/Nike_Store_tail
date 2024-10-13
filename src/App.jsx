@@ -8,6 +8,7 @@ import SpecialOffers from './sections/SpecialOffers'
 import Subscribe from './sections/Subscribe'
 import SuperQuality from './sections/SuperQuality'
 import Nav from './components/Nav';
+import Clone from './sections/Clone';
 
 function App(){
   return(
@@ -33,6 +34,9 @@ function App(){
       </section>
       <section className="padding-x sm:py-32 py-16 w-full">
         <Subscribe />
+      </section>
+      <section className='px-8'>
+        <Clone/>
       </section>
       <section className="bg-black padding-x padding-t pb-8">
         <Footer />
