@@ -10,6 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  transition: all 0.3s ;
 }
 body{
   background: linear-gradient(45deg,rgb(0, 0, 0,0.9),rgb(0, 0, 95));
@@ -71,3 +72,4 @@ body{
 button:hover .move-left {
   transform: translateX(15px); 
 }
+
