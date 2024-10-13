@@ -16,7 +16,7 @@ const Nav = () => {
         <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
            {
             head.map((sel) => <li key={sel}>
-              <a href="/"
+              <a href={'#'+sel}
               className='font-montserrat leading-normal text-lg text-slate-gray'
               >
                 {sel}
