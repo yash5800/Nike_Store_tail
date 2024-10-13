@@ -73,3 +73,10 @@ button:hover .move-left {
   transform: translateX(15px); 
 }
 
+.but{
+  transform: scale(1);
+}
+
+.but:hover{
+  transform: scale(1.05);
+}

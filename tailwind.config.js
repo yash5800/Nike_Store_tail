@@ -29,7 +29,8 @@ export default {
         "white-400": "rgba(255, 255, 255, 0.80)"
       },
       boxShadow: {
-        '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
+        '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)',
+        'custome-light': ' -4px -4px 10px 1px rgba(255, 255, 255, 0.1), 6px 6px 10px 1px rgba(0,0,0,0.9)'
       },
       backgroundImage: {
         'hero': "url('assets/images/collection-background.svg')",

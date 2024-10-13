@@ -1,6 +1,5 @@
 import ViewButton from "../components/ViewButton"
 import { shoe8 } from "../assets/images"
-import { useState } from "react"
 const SuperQuality = () => {
   return (
     <div id="About Us" className="flex xl:flex-row flex-col gap-8 justify-center items-center w-full">
