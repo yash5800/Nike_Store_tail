@@ -30,7 +30,7 @@ const Hero = () => {
                 <span className="text-coral-red">Nike</span> Shoes
              </h1>
              <p className="font-montserrat text-slate-gray text-lg mt-6 mb-14 sm:max-w-sm">Discover stylish Nike arrivals,quality comfort,and innovation for your active life</p>
-             <Button label={"Shope now"} iconUrl={arrowRight}/>
+             <Button label={"Shop now"} iconUrl={arrowRight}/>
              <div className="flex relative  justify-start items-start gap-16 w-full mt-20 max-xs:my-size ">
                 {
                   statistics.map((stat,index)=> 
