@@ -17,7 +17,7 @@ const SpecialOffers = () => {
         us is nothing short of exceptional.
         </p>
         <div className="mt-5 flex gap-6">
-       <Button label={"Shope now"} iconUrl={arrowRight} />
+       <Button label={"Shop now"} iconUrl={arrowRight} />
          <TransButton />
        </div>
       </div>
